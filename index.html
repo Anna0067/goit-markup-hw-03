@@ -9,25 +9,26 @@
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         />
         <link rel="stylesheet" href="css/styles.css" />
+        <link
+            rel="stylesheet"
+            href="node_modules/modern-normalize/modern-normalize.css"
+        />
     </head>
 
     <body>
         <header>
-            <div class="menu-left">
-            <a class="logo" href="/"><span class="logo-web">Web</span>Studio</a>
-
-            <nav class="menu-left">
-                <ul class="ul">
+            <nav>
+                <ul class="container-navigation">
+                    <li>
+                        <a class="logo" href="/"
+                            ><span class="logo-web">Web</span>Studio</a
+                        >
+                    </li>
                     <li><a class="links" href="./index.html">Agencja</a></li>
                     <li>
                         <a class="links" href="./portfolio.html">Portfolio</a>
                     </li>
-                    <li class="links"><a href="#"></a>Kontakt</li>
-                </ul>
-                </div>
-
-                <div class="menu-right">
-                <ul class="ul">
+                    <li><a class="links" href="#">Kontakt</a></li>
                     <li>
                         <a
                             class="links-contact"
@@ -42,12 +43,13 @@
                         >
                     </li>
                 </ul>
-                </div>
             </nav>
         </header>
         <main>
             <section class="title">
-                <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+                <h1 class="efektywne">
+                    EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+                </h1>
 
                 <button class="main-button" type="button">Zamów usługe</button>
             </section>
@@ -91,33 +93,33 @@
 
             <section>
                 <h2 class="headings">Czym się zajmujemy</h2>
-     <div>
-                <ul class="img-container">
-                    <li>
-                        <img
-                            src="images/main.img/img1.jpg"
-                            alt="Programmer is writing a code"
-                            width="370"
-                            height="294"
-                        />
-                    </li>
-                    <li>
-                        <img
-                            src="images/main.img/img2.jpg"
-                            alt="Laptop and smartphone"
-                            width="370"
-                            height="294"
-                        />
-                    </li>
-                    <li>
-                        <img
-                            src="images/main.img/img3.jpg"
-                            alt="ipad with colour palette on the screen"
-                            width="370"
-                            height="294"
-                        />
-                    </li>
-                </ul>
+                <div>
+                    <ul class="img-container">
+                        <li>
+                            <img
+                                src="images/main.img/img1.jpg"
+                                alt="Programmer is writing a code"
+                                width="370"
+                                height="294"
+                            />
+                        </li>
+                        <li>
+                            <img
+                                src="images/main.img/img2.jpg"
+                                alt="Laptop and smartphone"
+                                width="370"
+                                height="294"
+                            />
+                        </li>
+                        <li>
+                            <img
+                                src="images/main.img/img3.jpg"
+                                alt="ipad with colour palette on the screen"
+                                width="370"
+                                height="294"
+                            />
+                        </li>
+                    </ul>
                 </div>
             </section>
 
@@ -127,6 +129,7 @@
                     <li>
                         <figure class="john-doe-description">
                             <img
+                                class="john-doe-images"
                                 src="images/People/john_doe1.jpg"
                                 alt="A man with glasses"
                                 width="270"
@@ -141,6 +144,7 @@
                     <li>
                         <figure class="john-doe-description">
                             <img
+                                class="john-doe-images"
                                 src="images/People/jonh_doe2.jpg"
                                 alt="A happy blonde woman"
                                 width="270"
@@ -155,6 +159,7 @@
                     <li>
                         <figure class="john-doe-description">
                             <img
+                                class="john-doe-images"
                                 src="images/People/john_doe3.jpg"
                                 alt="A man in blue shirt"
                                 width="270"
@@ -169,6 +174,7 @@
                     <li>
                         <figure class="john-doe-description">
                             <img
+                                class="john-doe-images"
                                 src="images/People/john_doe4.jpg"
                                 alt="Happy brunet in glasses"
                                 width="270"
@@ -184,14 +190,16 @@
             </section>
         </main>
         <footer class="footer">
-            <a class="logo-web-footer" href="/"
-                ><span class="logo-web">Web</span>Studio</a
-            >
-            <address class="footer">
-                <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-                <p class="footer-contact">info@example.com</p>
-                <p class="footer-contact">+48 111 111 111</p>
-            </address>
+            <div class="footer-container">
+                <a class="logo-web-footer" href="/"
+                    ><span class="logo-web">Web</span>Studio</a
+                >
+                <address class="footer">
+                    <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+                    <p class="footer-contact">info@example.com</p>
+                    <p class="footer-contact">+48 111 111 111</p>
+                </address>
+            </div>
         </footer>
     </body>
 </html>
