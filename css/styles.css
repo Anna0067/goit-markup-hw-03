@@ -35,7 +35,7 @@ header {
 .navigation {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     max-width: 1600px;
     height: 80px;
     list-style: none;
@@ -46,7 +46,7 @@ header {
 .left-nav {
     display: flex;
     justify-content: flex-start;
-    align-items: baseline;
+    align-items: center;
     gap: 46px;
     list-style: none;
 }
@@ -123,6 +123,7 @@ a {
     padding-top: 200px;
 }
 .efektywne {
+    font-family: "Roboto";
     font-weight: 900;
     font-size: 44px;
     line-height: 1.37;
@@ -148,7 +149,7 @@ a {
 }
 .lorem-ipsum-style {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
     list-style: none;
     gap: 30px;
@@ -180,7 +181,7 @@ a {
     padding: 94px 215px;
     gap: 30px;
     list-style-type: none;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -197,7 +198,7 @@ a {
     gap: 30px;
     list-style-type: none;
     list-style: none;
-    justify-content: center;
+    justify-content: space-between;
     padding-bottom: 94px;
 }
 
@@ -209,7 +210,7 @@ a {
 .john-doe-style {
     display: flex;
     list-style-type: none;
-    justify-content: center;
+    justify-content: space-between;
     padding-bottom: 94px;
     gap: 30px;
 }
@@ -303,7 +304,7 @@ a {
 .portfolio-img-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     padding-bottom: 94px;
 }
 
